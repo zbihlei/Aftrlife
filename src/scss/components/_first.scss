@@ -1,0 +1,38 @@
+
+.first{
+    position: relative;
+    background-image: url('../../img//mainslider.png');
+    background-position-x: right;
+    background-position-y: -60px;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    border-bottom: 2px solid #e5e5e5; 
+    .left{
+        position: absolute;
+        margin-top: 90px;
+        margin-left: 120px;
+        width: 500px;
+    }
+    h3{
+        margin: 0;
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 52px;
+        text-transform: uppercase;
+    }
+    .subtext{
+        font-weight: 400;
+        line-height: 30px;
+        font-size: 20px;
+        margin: 45px 0 60px 0;
+    }
+    button{
+        cursor: pointer;
+        padding: 17px 28px;
+        border: none;
+        border-radius: 25px;
+        background-color: #6AA0FF;
+        color: white;
+    } 
+}

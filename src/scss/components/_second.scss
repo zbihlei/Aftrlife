@@ -1,0 +1,60 @@
+.second{
+    background-image: url('../../img/bckgr2.png');
+    background-position-x: left;
+    background-position-x: left;
+    background-position-y: -60px;
+    background-repeat: no-repeat;
+    height: 115vh;
+    position: relative;
+    border-bottom: 2px solid #e5e5e5;
+    &::after{
+        content: '';
+        background-image: url('../../img/svg/lockupper.svg');
+        height: 145px;
+        width: 145px;
+        display: block;
+        position: absolute;
+        bottom: -85px; 
+        left: 50%; 
+        transform: translateX(-50%);
+    } 
+    h3{
+        margin-top: 90px;
+        margin-bottom: 90px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 32px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        span{
+            font-weight: 300;
+        }
+    }
+    .right{
+        position: absolute;
+        right: 122px;
+        display: flex;
+        justify-content: end;
+        flex-wrap: wrap;
+        width: 720px;
+        gap: 15px;
+        .item{
+            height: 300px;
+            width: 228px;
+            padding: 40px 24px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+            h5{
+                font-family: "Montserrat";
+                margin: 30px 0 20px 0;
+                font-size: 20px;
+                font-weight: 600;
+                width: 130px;
+            }
+            .subtext{
+                font-weight: 300;
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.third{
+    position: relative;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #e5e5e5; 
+    &::before{
+        content: '';
+        background-image: url('../../img/svg/shield.svg');
+        height: 250px;
+        width: 179px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 20px;
+    }
+    &::after{
+        content: '';
+        background-image: url('../../img/svg/lock.svg');
+        height: 270px;
+        width: 240px;
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 40px;
+    }
+    h3{
+        margin-top: 110px;
+        margin-bottom: 45px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 32px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        span{
+            font-weight: 300;
+        }
+    }
+    .subtext{
+        padding: 0 10px;
+        font-size: 18px;
+        line-height: 30px;
+        text-align:center;
+        width: 63%;
+    }
+    button{
+        cursor: pointer;
+        font-size: 18px;
+        padding: 17px 19px;
+        border: none;
+        margin-top: 77px;
+        border-radius: 25px;
+        background-color: #6AA0FF;
+        color: white;
+    } 
+}
