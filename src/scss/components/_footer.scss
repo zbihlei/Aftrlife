@@ -1,0 +1,40 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #01141A;
+    height: 35vh;
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin-left: 120px;
+        margin-right: 170px;
+        button{
+            cursor: pointer;
+            background-color: #FAFBFD;
+            width: 145px;
+            height: 40px;
+            border: none;
+            border-radius: 20px;
+        }
+    }
+    .list{
+        display: grid;
+        grid-template-columns: repeat(3, 250px); 
+        align-self: center;
+        height: 100px;
+        .item{
+            padding-left: 50px;
+            color: white;
+            margin-bottom: 15px;
+        }
+    }
+    .social{
+        display: flex;
+        gap: 20px;
+        align-self: center;
+        margin-bottom: 60px;
+    }
+}

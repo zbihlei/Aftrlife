@@ -1,0 +1,46 @@
+.fifth{
+    height: 65vh;
+    background-image: url('../../img//rocket.png');
+    background-position-x: left;
+    background-position-y: 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    .right{
+        position: absolute;
+        top: 90px;
+        right: 100px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        h3{
+            margin-top: 0;
+            padding: 0 100px;
+            margin-bottom: 45px;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 32px;
+            font-family: "Montserrat";
+            font-weight: 600;
+            span{
+                font-weight: 300;
+            }
+        }
+        .subtext{
+            text-align: center;
+            padding: 0 40px;
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 60px;
+        }
+        button{
+            margin: 0 auto;
+            cursor: pointer;
+            font-size: 18px;
+            padding: 17px 19px;
+            border: none;
+            border-radius: 25px;
+            background-color: #6AA0FF;
+            color: white;
+        } 
+    }
+}
