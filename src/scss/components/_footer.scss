@@ -1,16 +1,18 @@
 footer{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: #01141A;
-    height: 35vh;
+    height: 200px;
     .buttons{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 12px;
+        width: 145px;
         margin-left: 120px;
-        margin-right: 170px;
+ 
         button{
             cursor: pointer;
             background-color: #FAFBFD;
@@ -25,8 +27,8 @@ footer{
         grid-template-columns: repeat(3, 250px); 
         align-self: center;
         height: 100px;
+        margin-left: 200px;
         .item{
-            padding-left: 50px;
             color: white;
             margin-bottom: 15px;
         }
@@ -36,5 +38,6 @@ footer{
         gap: 20px;
         align-self: center;
         margin-bottom: 60px;
+        margin-right: 145px;
     }
 }

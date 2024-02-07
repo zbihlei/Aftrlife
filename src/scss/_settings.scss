@@ -33,8 +33,9 @@ a {
 
 .site-container {
   background-image: url('../img//Bckgr.png');
+  background-size: cover;
   overflow: hidden; 
-  max-width: 1440px;
+  // max-width: 1440px;
 }
 
 .is-hidden {
