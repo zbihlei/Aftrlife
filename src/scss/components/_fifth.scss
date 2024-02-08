@@ -1,9 +1,11 @@
 .fifth{
     height: 500px;
-    background-image: url('../../img//rocket.png');
-    background-position-x: left;
+    background-image: url('../../img/svg/5.svg');
+    background-position-x: -250px;
     background-position-y: 20px;
     background-repeat: no-repeat;
+    background-size: 60%;
+    min-width: 1440px;
     position: relative;
     .right{
         position: absolute;

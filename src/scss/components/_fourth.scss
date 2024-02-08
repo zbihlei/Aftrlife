@@ -1,7 +1,8 @@
 
 .fourth{
     height: 700px;
-    background-image: url('../../img//digital.png');
+    min-width: 1440px;
+    background-image: url('../../img/svg/4.svg');
     background-repeat: no-repeat;
     background-position-x: calc(100% - 50px);
     background-position-y: 60px;
@@ -26,6 +27,7 @@
             width: 417px;
             list-style: none;
             li{
+                position: relative;
                 &::before{
                     content: '';
                     background-image: url('../../img/svg/ok.svg');
@@ -33,7 +35,7 @@
                     width: 30px;
                     display: block;
                     position: absolute;
-                    left: 100px;
+                    left: -50px;
                 }
                 h5{
                     font-family: "Montserrat";

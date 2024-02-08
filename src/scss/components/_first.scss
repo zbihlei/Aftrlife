@@ -1,12 +1,13 @@
 
 .first{
     position: relative;
-    background-image: url('../../img//mainslider.png');
-    background-position-x: right;
+    background-image: url('../../img/svg/1.svg');
+    background-position-x: calc(100% + 60px);
     background-position-y: -60px;
     background-repeat: no-repeat;
+    background-size: 70%;
+    min-width: 1440px;
     height: 650px;
-    width: 100%;
     border-bottom: 2px solid #e5e5e5; 
     .left{
         position: absolute;

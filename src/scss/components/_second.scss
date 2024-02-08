@@ -1,9 +1,10 @@
 .second{
-    background-image: url('../../img/bckgr2.png');
-    background-position-x: left;
+    background-image: url('../../img/svg//2.svg');
     background-position-x: left;
     background-position-y: -60px;
     background-repeat: no-repeat;
+    background-size: 60%;
+    min-width: 1440px;
     height: 900px;
     position: relative;
     border-bottom: 2px solid #e5e5e5;
@@ -32,7 +33,7 @@
     }
     .right{
         position: absolute;
-        right: 122px;
+        right: 20px;
         display: flex;
         justify-content: end;
         flex-wrap: wrap;

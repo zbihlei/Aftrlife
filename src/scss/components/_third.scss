@@ -1,6 +1,7 @@
 .third{
     position: relative;
     height: 550px;
+    min-width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,17 +10,17 @@
         content: '';
         background-image: url('../../img/svg/shield.svg');
         height: 250px;
-        width: 179px;
+        width: 220px;
         display: block;
         position: absolute;
-        left: 0;
+        left: -25px;
         top: 20px;
     }
     &::after{
         content: '';
         background-image: url('../../img/svg/lock.svg');
         height: 270px;
-        width: 240px;
+        width: 260px;
         display: block;
         position: absolute;
         right: 0;
